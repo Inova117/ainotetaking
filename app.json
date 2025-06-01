@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "AI Note Taker",
+    "slug": "ai-note-taker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7B896F"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zerionstudio.ainotetaker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#7B896F"
+      },
+      "package": "com.zerionstudio.ainotetaker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "An intelligent note-taking app powered by AI with voice recording, transcription, and smart organization features.",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "githubUrl": "https://github.com/zerionstudio/ai-note-taker",
+    "extra": {
+      "eas": {
+        "projectId": "95b372ac-a81c-4012-80bf-f57899d7d547"
+      }
+    }
+  }
+}
